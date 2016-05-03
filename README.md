@@ -1,4 +1,4 @@
-# clock.js
+# [clock.js](http://rack.pub/clockjs/)
 ### Synopsis
 
 Simple datetime tools.  2.39KB minified.  One file.  
