@@ -7,16 +7,9 @@ Simple datetime tools.  2.39KB minified.  One file.
 ```
 clock.now	-->	1462248501241
 clock.time	-->	11:08 PM
-
+clock.since(1462245888784)	-->	44 minutes
 ```
 > :clapper: The properties are live (via getters), i.e., clock.now returns a current timestamp each time you call it.
-```
-clock.since(1462245888784)	-->	44 minutes
-clock.unit.months	-->	2628002880
-clock.unit.years	-->	31536000000
-```
-> NOTE: although negligible in most cases, months and years are approximated for the `clock.since(timestamp)` and `clock.until(timestamp)` methods and the `clock.unit.months` and `clock.unit.years` properties.
-
 
 ### Motivation
 
@@ -52,6 +45,7 @@ clock.unit.weeks	-->	604800000
 clock.unit.months	-->	2628002880
 clock.unit.years	-->	31536000000
 ```
+> :point_right: although negligible in most cases, months and years are approximated for the `clock.since(timestamp)` and `clock.until(timestamp)` methods and the `clock.unit.months` and `clock.unit.years` properties.
 
 ### Contribute
 
