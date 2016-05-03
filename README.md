@@ -1,10 +1,33 @@
 # clock.js
-## Synopsis
+### Synopsis
 
 Simple datetime tools.  2.39KB minified.  One file.  
-> NOTE: although negligible in most cases, months and years are approximated for the `clock.since` and `clock.until` methods and the `clock.unit.months` and `clock.unit.years` properties.
 
-## Code Example
+### Code Example
+```
+clock.now	-->	1462248501241
+clock.time	-->	11:08 PM
+
+```
+> :clapper: The properties are live (via getters), i.e., clock.now returns a current timestamp each time you call it.
+```
+clock.since(1462245888784)	-->	44 minutes
+clock.unit.months	-->	2628002880
+clock.unit.years	-->	31536000000
+```
+> NOTE: although negligible in most cases, months and years are approximated for the `clock.since(timestamp)` and `clock.until(timestamp)` methods and the `clock.unit.months` and `clock.unit.years` properties.
+
+
+### Motivation
+
+A need for an easy to use simple and untuitive datetime tools library in a single JavaScript file.
+
+### Installation
+
+Copy and paste.
+
+### API Reference
+
 ```
 clock.now	-->	1462248501241
 clock.time	-->	11:08 PM
@@ -29,23 +52,11 @@ clock.unit.weeks	-->	604800000
 clock.unit.months	-->	2628002880
 clock.unit.years	-->	31536000000
 ```
-## Motivation
 
-A need for an easy to use simple and untuitive datetime tools library in a single JavaScript file.
-
-## Installation
-
-Copy and paste.
-
-## API Reference
-
-All methods and properties are shown in the code example.
-> Note the properties are live (via getters), i.e., clock.now returns a current timestamp each time you call it.
-
-## Contribute
+### Contribute
 
 If you found a bug, have any questions or want to contribute please let me know, [ron@rack.pub](mailto:ron@rack.pub).
 
-## License
+### License
 
 Ron Royston, [www.rack.pub](www.rack.pub), [MIT License](https://en.wikipedia.org/wiki/MIT_License)
