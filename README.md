@@ -1,4 +1,3 @@
-<img src="http://www.rack.pub/clockjs/logo.png" alt="Logo" />
 # clock.js
 ## Synopsis
 
