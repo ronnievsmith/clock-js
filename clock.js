@@ -1,6 +1,6 @@
 /*
 clock.js v0.1 - Simple datetime add-on tools for JavaScript
-Created by Ron Royston, www.rack.pub
+Created by Ron Royston, https://rack.pub
 https://github.com/rhroyston/clock-js
 License: MIT
 
