@@ -5,25 +5,10 @@ https://github.com/rhroyston/clock-js
 License: MIT
 
 clock.now
-clock.time
-clock.weekday
-clock.day
-clock.month
-clock.year
 clock.since(timestamp)
 clock.until(timestamp)
 clock.what.time(timestamp)
-clock.what.weekday(timestamp)
-clock.what.day(timestamp)
-clock.what.month(timestamp)
-clock.what.year(timestamp)
 clock.unit.seconds
-clock.unit.minutes
-clock.unit.hours
-clock.unit.days
-clock.unit.weeks
-clock.unit.months
-clock.unit.years
 */
 
 //Revealing Module Pattern (Public & Private) w Public Namespace 'clock'
@@ -284,8 +269,4 @@ var clock = (function() {
     //API
     return pub;
 }());
-
-
-
-    
     

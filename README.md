@@ -1,4 +1,4 @@
-# [clock.js](http://rack.pub/clockjs/)
+# [clock.js](http://rack.pub/clock.min.js)
 ### Synopsis
 
 Simple datetime tools.  2.39KB minified.  One file.  
@@ -17,7 +17,11 @@ A need for an easy to use simple and untuitive datetime tools library in a singl
 
 ### Installation
 
-Copy and paste.
+:checkered_flag: Load via rack.pub's global CDN
+
+`<script src="https://rack.pub/pluralater.min.js"></script>`
+
+:rocket:  Embed clock.min.js in your javascript when putting in production for best page loading performance.
 
 ### API Reference
 
