@@ -13,7 +13,7 @@ clock.since(1462245888784)	-->	44 minutes
 
 ### Motivation
 
-A need for an easy to use simple and untuitive datetime tools library in a single JavaScript file.
+My need for a lightweight, easy to use, simple, and intuitive datetime tools library in a single JavaScript file.
 
 ### Installation
 
