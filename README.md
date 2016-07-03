@@ -19,7 +19,7 @@ My need for a lightweight, easy to use, simple, and intuitive datetime tools lib
 
 :checkered_flag: Load via rack.pub's global CDN
 
-`<script src="https://rack.pub/pluralater.min.js"></script>`
+`<script src="https://rack.pub/clock.min.js"></script>`
 
 :rocket:  Embed clock.min.js in your javascript when putting in production for best page loading performance.
 
