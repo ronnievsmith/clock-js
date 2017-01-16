@@ -35,8 +35,10 @@ var clock = (function() {
             var d = new Date();
             var h = d.getHours();
             var m = ('0' + d.getMinutes()).slice(-2);
-            if(h<12){
+            if(h < 12){
                 return h + ':' + m + ' AM';
+            } else if(h == 12){
+                    return h + ':' + m + ' PM';
             } else {
                 return (h - 12) + ':' + m + ' PM';
             }
