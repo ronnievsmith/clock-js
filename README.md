@@ -49,8 +49,8 @@ clock.unit.years	-->	31536000000
 
 ### Contribute
 
-If you found a bug, have any questions or want to contribute please let me know, [ron@rack.pub](mailto:ron@rack.pub).
+If you found a bug, have any questions or want to contribute please let me know.
 
 ### License
 
-Ron Royston, [https://rack.pub](https://rack.pub), [MIT License](https://en.wikipedia.org/wiki/MIT_License)
+Ronnie Smith, [https://ronnievsmith](https://ronnievsmith.com), [MIT License](https://en.wikipedia.org/wiki/MIT_License)
