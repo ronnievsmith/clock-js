@@ -1,4 +1,4 @@
-# [clock.js](http://rack.pub/clock.min.js)
+# clock.js
 ### Synopsis
 
 Simple datetime tools.  2.39KB minified.  One file.  
@@ -16,10 +16,6 @@ clock.since(1462245888784)	-->	44 minutes
 My need for a lightweight, easy to use, simple, and intuitive datetime tools library in a single JavaScript file.
 
 ### Installation
-
-:checkered_flag: Load via rack.pub's global CDN
-
-`<script src="https://rack.pub/clock.min.js"></script>`
 
 :rocket:  Embed clock.min.js in your javascript when putting in production for best page loading performance.
 
